@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.peselGenerator {
+  border: 2px dashed blue;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.nameSurname,
+.birthDate {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+
+}
+
+.generatePESEL {
+  display: block;
+  background-color: black;
+  color: yellow;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.generatePESEL:hover {
+  color: black;
+  background-color: red;
+}
+
+label[for="gender"] {
+  display: inline-block;
+  margin: 10px 20px 0 5px;
+}
+
+.man,
+.woman {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+
+strong {
+  font-weight: bold;
+}

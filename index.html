@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="peselGenerator">
+    <h1 class="title">Generator numeru PESEL</h1>
+    <label for="nameSurname">Imię i nazwisko:</label>
+    <input id="nameSurname" class="nameSurname" type="text" placeholder="Imię i Naziwsko">
+    <label for="birthDate">Data urodzenia (prosze wybrać powyżej 1900 r.):</label>
+    <input id="birthDate" class="birthDate" type="date" min="1900-01-01" max="2017-04-30" value="2000-01-01">
+
+    <input id="gender" class="man" type="radio" name="gender"><label for="gender">Mężczyzna</label>
+    <input id="gender" class="woman" type="radio" name="gender"><label for="gender">Kobieta</label>
+    <button class="generatePESEL">Generuj</button>
+    <p>Imię i nazwisko: <strong class="name">...</strong></p>
+    <p>Nr PESEL: <strong class="peselNumber">...</strong></p>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
